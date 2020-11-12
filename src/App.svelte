@@ -6,9 +6,13 @@
   let open = false
 </script>
 
-<Sidebar bind:open/>
+
 <Navbar bind:sidebar={open}/>
+<Sidebar bind:open/>
 <Main/>
+
+
+
 
 <svelte:head>
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet"/>

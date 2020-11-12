@@ -1,4 +1,7 @@
+
+
 <script>
+	// este modulo comprende todo lo relacionado al boton de abrir y cerrar el meno lateral 
 	export let open = false
 </script>
 
